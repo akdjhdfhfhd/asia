@@ -39,15 +39,15 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🍂 الاوامر 🍂", callback_data="settings_back_helper"
             ),
             InlineKeyboardButton(
-                text="🥀مطور البوت🥀", user_id=OWNER
+                text="🥀 مطور البوت 🥀", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="💔قناة البوت💔", url=config.SUPPORT_GROUP
+                text="💔 قناة البوت 💔", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✨لتنصيب البوت✨", url=f"https://t.me/ah_2_v"
+                text="✨ لتنصيب البوت ✨", url=f"https://t.me/ah_2_v"
             )
         ],
      ]
