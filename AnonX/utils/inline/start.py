@@ -40,27 +40,27 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="🍂 الاوامر 🍂", callback_data="settings_back_helper"
+                text="༺༽الاوامر༼༻", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🥀 مطور البوت 🥀", user_id=OWNER
+                text=" مطور البوت 👨‍💻", user_id=OWNER
            ) 
         ],
         [
             InlineKeyboardButton(
-                text="💔 قناة البوت 💔", url=f"https://t.me/ah07v"
+                text=" قناة البوت 💎", url=f"https://t.me/ah07v"
             )
         ],
         [
             InlineKeyboardButton(
-                text="✨ لتنصيب البوت ✨", url=f"https://t.me/ah_2_v"
+                text=" لتنصيب البوت 🤖", url=f"https://t.me/ah_2_v"
             )
         ],
         [
             InlineKeyboardButton(
-                text="طريقة استخدام الاوامر", url=f"https://t.me/ah05v"
+                text="طريقة استخدام الاوامر 🇮🇶", url=f"https://t.me/ah05v"
             )
         ],
      ]
