@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 def help_pannel(_, START: Union[bool, int] = None):
     first = [
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"☆ اغلاق ☆"
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
         )
     ]
     second = [
@@ -15,7 +15,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             callback_data=f"settingsback_helper",
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"☆ اغلاق ☆"
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
         ),
     ]
     mark = second if START else first
