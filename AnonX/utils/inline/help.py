@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 def help_pannel(_, START: Union[bool, int] = None):
     first = [
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"☆ اغلاق ☆"
         )
     ]
     second = [
@@ -15,7 +15,7 @@ def help_pannel(_, START: Union[bool, int] = None):
             callback_data=f"settingsback_helper",
         ),
         InlineKeyboardButton(
-            text=_["CLOSEMENU_BUTTON"], callback_data=f"close"
+            text=_["CLOSEMENU_BUTTON"], callback_data=f"☆ اغلاق ☆"
         ),
     ]
     mark = second if START else first
@@ -23,57 +23,19 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="ᴀᴅᴍɪɴ",
+                    text="✪ اوامر الادمن ✪",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="ᴀᴜᴛʜ",
-                    callback_data="help_callback hb2",
-                ),
-                InlineKeyboardButton(
-                    text="ʙʟᴀᴄᴋʟɪsᴛ",
-                    callback_data="help_callback hb3",
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="ʙʀᴏᴀᴅᴄᴀsᴛ",
-                    callback_data="help_callback hb4",
-                ),
-                InlineKeyboardButton(
-                    text="ɢʙᴀɴ",
-                    callback_data="help_callback hb12",
-                ),
-                InlineKeyboardButton(
-                    text="ʟʏʀɪᴄs",
-                    callback_data="help_callback hb5",
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="ᴩɪɴɢ",
-                    callback_data="help_callback hb7",
-                ),
-                InlineKeyboardButton(
-                    text="ᴩʟᴀʏ",
+                    text="✪ اوامر التشغيل ✪",
                     callback_data="help_callback hb8",
                 ),
                 InlineKeyboardButton(
-                    text="ᴩʟᴀʏʟɪsᴛ",
+                    text="✪ قوائم التشغيل ✪",
                     callback_data="help_callback hb6",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
-                    text="ᴠɪᴅᴇᴏᴄʜᴀᴛs",
-                    callback_data="help_callback hb10",
-                ),
-                InlineKeyboardButton(
-                    text="sᴛᴀʀᴛ",
-                    callback_data="help_callback hb11",
-                ),
-                InlineKeyboardButton(
-                    text="sᴜᴅᴏ",
+                    text="✪ اوامر المطور ✪",
                     callback_data="help_callback hb9",
                 ),
             ],
