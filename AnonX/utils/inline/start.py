@@ -41,10 +41,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         [
             InlineKeyboardButton(
                 text="༺༽الاوامر༼༻", callback_data="settings_back_helper"
-            ). 
+           )
+        ],
+        [
             InlineKeyboardButton(
                 text=" مطور البوت 👨‍💻", user_id=OWNER
-            ). 
+            )
+        ],
+        [
             InlineKeyboardButton(
                 text=" قناة البوت 💎", url=f"https://t.me/ah07v"
             )
