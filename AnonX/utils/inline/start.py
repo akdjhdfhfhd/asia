@@ -36,14 +36,10 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             InlineKeyboardButton(
                 text="اضف البوت الى مجموعتڪ ✅",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
-        ],
-        [
+            ), 
             InlineKeyboardButton(
                 text="༺༽الاوامر༼༻", callback_data="settings_back_helper"
-           )
-        ],
-        [
+           ), 
             InlineKeyboardButton(
                 text=" مطور البوت 👨‍💻", user_id=OWNER
             )
