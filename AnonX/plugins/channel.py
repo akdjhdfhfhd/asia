@@ -1,5 +1,3 @@
-from AnonX.plugins.play.filters import command
-
 from pyrogram import filters
 
 from pyrogram.types import Message
@@ -20,7 +18,7 @@ CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
 
 @app.on_message(
 
-    command(CHANNELPLAY_COMMAND)
+    filters.command(CHANNELPLAY_COMMAND)
 
     & filters.group
 
@@ -52,7 +50,7 @@ async def playmode_(client, message: Message, _):
 
         await set_cmode(message.chat.id, None)
 
-        return await message.reply_text("Channel Play Disabled")
+        return await message.reply_text(f"ᴄʜᴀɴɴᴇʟ ᴩʟᴀʏ ᴅɪsᴀʙʟᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ʙʏ {message.from_user.first_name} ɪɴ {message.chat.title}")
 
     elif str(query) == "linked":
 
@@ -127,3 +125,33 @@ async def playmode_(client, message: Message, _):
             _["cplay_3"].format(chat.title, chat.id)
 
         )
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
