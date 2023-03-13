@@ -48,6 +48,9 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
             InlineKeyboardButton(
                 text="✨ لتنصيب البوت ✨", url=f"https://t.me/ah_2_v"
+                ),
+            InlineKeyboardButton(
+                text="طريقة استخدام الاوامر", url=f"https://t.me/ah05v"
             )
         ],
      ]
