@@ -15,7 +15,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="مساعده",
+                text="☆ مساعده ☆",
                 callback_data="settings_back_helper",
                  )
 
@@ -23,7 +23,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
 
         [
             InlineKeyboardButton(
-                text="الاعدادات", callback_data="settings_helper"
+                text="★ الاعدادات ★", callback_data="settings_helper"
             ),
         ],
      ]
@@ -40,7 +40,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [ 
             InlineKeyboardButton(
-                text="༺༽الاوامر༼༻", callback_data="settings_back_helper"
+                text="اوامر البوت ✴", callback_data="settings_back_helper"
            ), 
             InlineKeyboardButton(
                 text=" مطور البوت 👨‍💻", user_id=OWNER
