@@ -31,7 +31,6 @@ async def playmode_(client, message: Message, _):
             await set_cmode(message.chat.id, chat_id)
             return await message.reply_text(
                 _["cplay_3"].format(
-
                     chat.linked_chat.title, chat.linked_chat.id
                 )
             )
