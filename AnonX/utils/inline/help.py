@@ -41,16 +41,6 @@ def help_pannel(_, START: Union[bool, int] = None):
                 InlineKeyboardButton(
                     text="✪ اوامر المطور ✪",
                     callback_data="help_callback hb9",
-                    )
-        ],
-        [
-            InlineKeyboardButton(
-            text="󠁧󠁢󠁥🇪🇬 عربي",
-            callback_data=f"languages:en",
-            ), 
-          InlineKeyboardButton(
-            text="English 🇬🇬",
-            callback_data=f"languages:si", 
                 ),
             ],
             mark,
