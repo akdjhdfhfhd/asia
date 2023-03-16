@@ -4,7 +4,7 @@ from AnonX.utils.database import (get_lang, is_commanddelete_on,
                                        is_maintenance)
 
 
- def language(mystic):
+def language(mystic):
     async def wrapper(_, message, **kwargs):
         if await is_maintenance() is False:
             if message.from_user.id not in SUDOERS:
