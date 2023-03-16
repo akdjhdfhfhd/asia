@@ -21,7 +21,7 @@ def language(mystic):
             language = get_string(language)
         except:
             language = get_string("si")
-      return await mystic(_, message, language)
+      return await mystic(_,message,language)
   
   return wrapper 
 
