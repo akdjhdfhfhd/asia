@@ -47,6 +47,12 @@ def help_pannel(_, START: Union[bool, int] = None):
             InlineKeyboardButton(
             text="󠁧󠁢󠁥🇪🇬 عربي",
             callback_data=f"languages:en",
+                  ),
+       )
+      keyboard.row(
+          InlineKeyboardButton(
+            text="English 🇬🇬",
+            callback_data=f"languages:si", 
                 ),
             ],
             mark,
