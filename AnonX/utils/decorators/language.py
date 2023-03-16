@@ -50,7 +50,7 @@ def LanguageStart(mystic):
             language = await get_lang(message.chat.id)
             language = get_string(language)
         except:
-            language = get_string("er")
+            language = get_string("en")
         return await mystic(_, message, language)
 
     return wrapper
